@@ -15,7 +15,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Write a quick description of your project.',
+        message: 'Please describe the purpose and functionality of this project.',
     },
     {
         type: 'input',
@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Which license should your project have?',
+        message: 'Please select a license applicable to this project.',
         choices: ['MIT','APACHE_2.0','BSL_1.0','CC','None']
 
     },
@@ -46,7 +46,7 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'How would the user run a test in the command line?',
+        message: 'Provide walkthrough of required tests if applicable.',
         default: 'npm test',
 
     },
@@ -59,7 +59,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email?',
+        message: 'Provide a valid email address.',
 
     },
     
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 //function to initialize app
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) =>{
-        console.log('Generating README');
+        console.log('Generating your README...');
         writeToFile('README.md', generateMarkdown({...inquirerResponses}));
     });
 }

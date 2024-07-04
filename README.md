@@ -1,13 +1,13 @@
-# 
+# makeme-a-readme
 ![Static Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Description
 
-
+to generate a professional readme
 
 ## Table of contents
 
-*[Installation](#installation)
+*[Insatllataion](#installation)
 
 *[Usage](#Usage)
 
@@ -31,7 +31,7 @@ npm i
 
 ## Usage
 
-
+n/a
 
 ## License
 
@@ -39,7 +39,7 @@ npm i
 
 ## Contributing
 
-
+pull up my github and reach out for details
 
 ## Testing
 
@@ -51,8 +51,8 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, contact me at .
+If you have any questions about the repo, contact me at steven.lomax1@gmail.com.
 
-Find more of my projects at [](https://github.com//).
+Find more of my projects at [stevelomax1](https://github.com/stevelomax1/).
 
 
