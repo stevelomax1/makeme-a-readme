@@ -12,7 +12,7 @@ to generate a professional readme
 *[Usage](#Usage)
 
 
-* [License](#license)
+*[License](#license)
 
 
 *[Contributing](#contibuting)
