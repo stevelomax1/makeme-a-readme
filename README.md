@@ -7,7 +7,7 @@ to generate a professional readme
 
 ## Table of contents
 
-*[Insatllataion](#installation)
+*[Installation](#installation)
 
 *[Usage](#Usage)
 
